@@ -1,0 +1,43 @@
+body {
+    width: 100wv;
+    height: 100hv;
+    background-color: hsl(233, 47%, 7%);
+    padding: 9rem;
+    margin: auto;
+    color:hsl(0, 0%, 100%) ;
+}
+
+* {   box-sizing: border-box;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    background-color: hsl(244, 38%, 16%);
+   justify-content: center;
+  
+}
+
+.sec1 {
+      padding:  3rem;
+
+}
+.text{
+    padding-top: 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0%;
+}
+.down {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+margin: 0;
+}
+
+ img {
+    height: 100%;
+    width: 100%;
+}
